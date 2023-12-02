@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+  #products-desktop {
+    display: none;
+  }
+
+  #products-mobile {
+    display: block;
+  }
+
+  .product-card {
+    background-color: #f6f6f6;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    width: 75%;
+    box-shadow: 7px 7px #b90504;
+  }
+
+  .product-row {
+    margin-bottom: 5px;
+  }
+
+  .key {
+    font-family: 'bold';
+  }
+
+  .value {
+    font-family: 'regular';
+  }
+}
